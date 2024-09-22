@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Harukaze';
+    src: url('../../assets/Fonts/Harukaze.ttf') format('truetype'),
+         url('../../assets/Fonts/Harukaze.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+    margin: 0;
+    font-family: 'Harukaze';
+}
+
+h1,a, p, h2 {
+    font-family: 'Harukaze';
+  }
+
+
+
+

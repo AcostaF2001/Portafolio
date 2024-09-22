@@ -1,0 +1,125 @@
+/* Estilo minimalista del navbar */
+.navbar-custom {
+    background-color: transparent; /* Sin fondo */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Línea fina en la parte inferior */
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+  
+    /* Estilo para el nombre del sitio o título de bienvenida */
+    .navbar-brand {
+      font-size: 24px;
+      font-weight: bold;
+      color: #FFC0CB; /* Texto en negro */
+      text-decoration: none; /* Sin subrayado */
+      cursor: pointer;
+    }
+
+    
+    .navbar-brand:focus, .navbar-brand:hover {
+      color: #d86d7f;
+    }
+  
+    /* Contenedor para los enlaces y el switch a la derecha */
+    .navbar-right {
+      display: flex;
+      align-items: center; /* Alinear verticalmente */
+      gap: 20px; /* Espaciado entre enlaces y el switch */
+    }
+  
+    /* Estilo para los enlaces de navegación */
+    .navbar-links {
+      display: flex;
+      gap: 20px; /* Espaciado entre los enlaces */
+  
+      .nav-link {
+        text-decoration: none;
+        color: #FFC0CB;
+        font-size: 16px;
+        font-weight: 500;
+        position: relative;
+        transition: color 0.3s ease-in-out;
+        cursor: pointer;
+      }
+  
+      .nav-link:hover {
+        color: #d86d7f; /* Cambia el color al pasar el ratón */
+      }
+  
+      .nav-link::after {
+        content: '';
+        width: 0;
+        height: 1px;
+        background: #9e3144; /* Línea debajo del texto al hacer hover */
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        transition: width 0.3s ease-in-out;
+      }
+  
+      .nav-link:hover::after {
+        width: 100%; /* Línea completa debajo del enlace */
+      }
+    }
+  
+    /* Switch de idioma estilo botón */
+    .language-switch {
+      display: flex;
+      align-items: center;
+      
+      .form-check-input {
+        width: 50px;
+        height: 25px;
+        background-color: #007bff; /* Color de fondo por defecto */
+        border-radius: 50px;
+        position: relative;
+        cursor: pointer;
+        appearance: none;
+        outline: none;
+        transition: background-color 0.3s ease-in-out;
+        padding: 0;
+      }
+  
+      .form-check-input:checked {
+        background-color: #fcd116 !important; /* Amarillo bandera de Colombia */
+      }
+  
+      .form-check-input:checked::before {
+        background-color: #003893 !important; /* Azul bandera de Colombia */
+        border: 2px solid #CE1126 !important; /* Rojo bandera de Colombia */
+      }
+  
+      .form-check-input::before {
+        content: '';
+        width: 22px;
+        height: 22px;
+        background-color: #fff;
+        position: absolute;
+        top: 1.5px;
+        left: 3px;
+        border-radius: 50%;
+        transition: left 0.3s ease-in-out;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.2); /* Para evitar que se vea "plano" */
+      }
+  
+      .form-check-input:checked::before {
+        left: 25px !important; /* Mover la bola hacia la derecha */
+      }
+  
+      .form-check-label {
+        margin-left: 10px; /* Aumentar el espacio entre la bandera y el switch */
+      }
+    }
+  }
+  
