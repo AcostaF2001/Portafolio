@@ -7,6 +7,20 @@
     "portfolioGreeting": "Multimedia Engineer",
     "portfolioDescription": "This is my portfolio, come and explore all my services and work.",
     "titleAboutme":"About Me",
-    "descriptionAboutme":"Hi, I'm Felipe, multimedia engineer with experience in Vite React, C#, Python, Flutter, PHP and more. I am passionate about creating innovative and collaborative solutions. With a focus on quality and continuous improvement, I seek to bring value to every project. My skills in web and game development, along with my command of English, allow me to work effectively in international teams. I am ready to contribute and exceed expectations in future challenges."
+    "descriptionAboutme":"Hi, I'm Felipe, multimedia engineer with experience in Vite React, C#, Python, Flutter, PHP and more. I am passionate about creating innovative and collaborative solutions. With a focus on quality and continuous improvement, I seek to bring value to every project. My skills in web and game development, along with my command of English, allow me to work effectively in international teams. I am ready to contribute and exceed expectations in future challenges.",
+    "titleProjects":"My Projects",
+    "project1text":"This video game takes place in a dark and mysterious environment, where the player must find hidden books to break a curse and escape. It was created using Unity and programmed in C#.",
+    "project1":"videogame Developer",
+    "project2text":"This food ordering web application is designed primarily for mobile devices, offering an optimized and agile experience. It was developed using React on the frontend and Node.js on the backend, ensuring an efficient and modern operation.",
+    "projetc2":"Web Developer",
+    "project3text":"This educational video game is designed to raise awareness about gender-based violence. The interface, meticulously created in Figma, facilitates an intuitive and accessible user experience, focused on promoting reflection and learning about critical social issues.",
+    "projetc3":"UX/UI Designer",
+    "verproyecto":"See Project →",
+    "downloadCV":"Download CV",
+    "sendEmail":"Send Email",
+    "contactTitle": "Contact Me",
+    "Correo":"Email: a.felipeal@hotmail.com",
+    "Celular":"Phone: +57 3195122681"
 }
+
   

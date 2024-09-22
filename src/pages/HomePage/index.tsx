@@ -4,6 +4,8 @@ import './index.scss';
 import video from '../../assets/Videos/Fondo.mp4';
 import NavBar from '../../components/Navbar';
 import { Aboutme } from '../About';
+import {Proyects} from '../Proyects';
+import {Contact} from '../info';
 
 const HomePage: React.FC = () => {
   const { t } = useTranslation();
@@ -85,14 +87,13 @@ const HomePage: React.FC = () => {
 
       {/* Sección Projects */}
       <div ref={projectsRef} className="projects-section">
-        <h2>{t('projectsTitle')}</h2>
-        <p>{t('projectsDescription')}</p>
+        <Proyects/>
       </div>
 
       {/* Sección Contact */}
       <div ref={contactRef} className="contact-section">
-        <h2>{t('contactTitle')}</h2>
-        <p>{t('contactDescription')}</p>
+        
+        <Contact />
       </div>
     </div>
   );

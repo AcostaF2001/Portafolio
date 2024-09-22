@@ -7,6 +7,20 @@
     "portfolioGreeting": "Ingeniero Multimedia",
     "portfolioDescription": "Este es mi portafolio, ven y explora todos mis servicios y mi trabajo.",
     "titleAboutme":"Sobre Mí",
-    "descriptionAboutme":"Hola, soy Felipe, ingeniero multimedia con experiencia en Vite React, C#, Python, Flutter, PHP y más. Me apasiona crear soluciones innovadoras y colaborativas. Con un enfoque en la calidad y mejora continua, busco aportar valor en cada proyecto. Mi habilidad en desarrollo web y videojuegos, junto con mi manejo del inglés, me permite trabajar eficazmente en equipos internacionales. Estoy listo para contribuir y superar expectativas en futuros desafíos."
+    "descriptionAboutme":"Hola, soy Felipe, ingeniero multimedia con experiencia en Vite React, C#, Python, Flutter, PHP y más. Me apasiona crear soluciones innovadoras y colaborativas. Con un enfoque en la calidad y mejora continua, busco aportar valor en cada proyecto. Mi habilidad en desarrollo web y videojuegos, junto con mi manejo del inglés, me permite trabajar eficazmente en equipos internacionales. Estoy listo para contribuir y superar expectativas en futuros desafíos.",
+    "titleProjects":"Mis Proyectos",
+    "project1text":"Este videojuego se desarrolla en un entorno oscuro y misterioso, donde el jugador debe encontrar libros ocultos para romper una maldición y lograr escapar. Fue creado utilizando Unity y programado en C#.",
+    "project1":"Desarrollador de Videojuegos",
+    "project2text":"Esta aplicación web de pedidos de comida está diseñada principalmente para dispositivos móviles, ofreciendo una experiencia optimizada y ágil. Fue desarrollada utilizando React en el frontend y Node.js en el backend, garantizando un funcionamiento eficiente y moderno.",
+    "projetc2":"Desarrollador Web",
+    "project3text":"Este videojuego educativo está diseñado para concienciar sobre la violencia de género. La interfaz, creada meticulosamente en Figma, facilita una experiencia de usuario intuitiva y accesible, enfocada en promover la reflexión y el aprendizaje sobre temas sociales críticos.",
+    "projetc3":"Diseñador UX/UI",
+    "verproyecto":"Ver Proyecto →",
+    "downloadCV":"Descargar Hoja de vida",
+    "sendEmail":"Enviar Correo",
+    "contactTitle":"Contactame",
+    "Correo":"Correo: a.felipeal@hotmail.com",
+    "Celular":"Celular: +57 3195122681"
+    
   }
   

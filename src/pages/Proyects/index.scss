@@ -1,0 +1,108 @@
+.project-container {
+    background-color: black;
+    color: #FFC0CB;
+    padding: 5% 8%;
+  
+    .title {
+      text-align: center;
+      font-size: 48px;
+      color: #ff616f;
+      margin-bottom: 40px;
+    }
+  
+    .project-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+      margin-bottom: 30px;
+      opacity: 0;
+      transform: translateY(20px); /* Comienza desde abajo */
+      transition: opacity 0.8s ease, transform 0.8s ease;
+      /* Añadir clase 'animate' cuando el componente esté en la vista */
+      
+      &:nth-child(even) {
+        flex-direction: row-reverse;
+      }
+  
+      &.animate {
+        opacity: 1;
+        transform: translateY(0); /* La animación activa el componente */
+      }
+  
+      .image-container {
+        flex-basis: 45%;
+        max-width: 45%;
+        margin-right: 15px;
+        overflow: hidden;
+        position: relative;
+        transition: all 0.3s ease-in-out;
+  
+        img {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+          filter: grayscale(50%) sepia(40%) hue-rotate(-15deg) saturate(80%);
+          transform: scale(1);
+          transition: all 0.3s ease-in-out;
+        }
+  
+        &:hover {
+          transform: scale(0.9); /* El contenedor se encoge */
+        }
+  
+        img:hover {
+          transform: scale(1.15); /* La imagen hace zoom mientras el contenedor se encoge */
+          filter: grayscale(30%) sepia(20%) hue-rotate(0deg) saturate(100%);
+        }
+      }
+  
+      .text-container {
+        flex-basis: 50%;
+        text-align: right;
+        padding: 10px;
+        margin-left: 10px;
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.8s ease, transform 0.8s ease;
+        /* Asegurarse de que el texto también reciba la clase 'animate' */
+  
+        &.animate {
+          opacity: 1;
+          transform: translateY(0); /* Activar animación del texto */
+        }
+  
+        h2 {
+          font-size: 77px;
+          margin-bottom: 0px;
+          color: #ff616f;
+        }
+  
+        p {
+          font-size: 30px;
+          color: #fae1e5;
+          text-align: right;
+        }
+      }
+    }
+  
+    .title-vora {
+      text-align: left;
+    }
+  
+    .vora {
+      text-align: left !important;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
